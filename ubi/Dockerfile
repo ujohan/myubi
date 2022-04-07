@@ -2,4 +2,4 @@
 
 FROM registry.access.redhat.com/ubi8/ubi
 CMD dnf install openldap-client -y
-ENTRYPOINT ["sh"]
+ENTRYPOINT ["/bin/sh"]
